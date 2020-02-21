@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">RecyclerDemo</string>
+    <string-array name="titleList">
+        <item>Judul 1</item>
+        <item>Judul 2</item>
+        <item>Judul 3</item>
+        <item>Judul 4</item>
+        <item>Judul 5</item>
+        <item>Judul 6</item>
+        <item>Judul 7</item>
+        <item>Judul 8</item>
+        <item>Judul 9</item>
+        <item>Judul 10</item>
+    </string-array>
+    <string-array name="descList">
+        <item>Ini deskripsi 1</item>
+        <item>Ini deskripsi 2</item>
+        <item>Ini deskripsi 3</item>
+        <item>Ini deskripsi 4</item>
+        <item>Ini deskripsi 5</item>
+        <item>Ini deskripsi 6</item>
+        <item>Ini deskripsi 7</item>
+        <item>Ini deskripsi 8</item>
+        <item>Ini deskripsi 9</item>
+        <item>Ini deskripsi 10</item>
+    </string-array>
+    <string-array name="photoList">
+        <item>@drawable/photo1</item>
+        <item>@drawable/photo2</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/photo4</item>
+        <item>@drawable/photo5</item>
+        <item>@drawable/photo6</item>
+        <item>@drawable/photo7</item>
+        <item>@drawable/photo8</item>
+        <item>@drawable/photo9</item>
+        <item>@drawable/photo10</item>
+    </string-array>
+</resources>
+
