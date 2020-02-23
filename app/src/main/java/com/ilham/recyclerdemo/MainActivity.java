@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
         // vertical layout
 //        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         // horizontal layout
-        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+//        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         // grid layout
 //        recyclerView.setLayoutManager(new GridLayoutManager(this, 5));
         // staggered layout
-//        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
         adapter = new MainAdapter(titleList, descList,  photoList,  this);
         recyclerView.setAdapter(adapter);
     }
